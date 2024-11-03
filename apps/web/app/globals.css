@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --primary: 260, 100%, 66.1%; /* Średni fiolet */
+    --primary-foreground: 283, 40%, 70%; /* Średni fiolet */
+    --border: 260, 100%, 89%;
+  }
+  .dark {
+    --primary: 260, 100%, 66.1%; /* Średni fiolet */
+    --primary-foreground: 283, 40%, 70%; /* Średni fiolet */
+    --border: 260, 100%, 89%;
+  }
+}

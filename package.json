@@ -1,0 +1,21 @@
+{
+  "name": "learnify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "npm@10.8.2",
+  "devDependencies": {
+    "turbo": "^2.2.3"
+  }
+}
